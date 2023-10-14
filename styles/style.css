@@ -15,7 +15,7 @@
 
 body {
     background-color: #191411;
-    font-family: "Gilroy", sans-serif;
+    font-family: 'Gilroy', sans-serif;
     color: white;
 }
 
@@ -25,7 +25,7 @@ body {
 }
 
 .button {
-    background: linear-gradient(95.61deg, #DA8023 0%, #E2B438 100%);
+    background: linear-gradient(95.61deg, #da8023 0%, #e2b438 100%);
     border-radius: 8px;
     width: 260px;
     height: 62px;
@@ -105,12 +105,18 @@ body {
     width: 45px;
     height: 45px;
     padding: 6px;
+    border: 1px solid white;
+    border-radius: 6px;
     box-sizing: border-box;
     text-align: center;
     cursor: pointer;
     line-height: 32px;
     margin-left: auto;
     user-select: none;
+    transistion: all 0.2s ease-in;
+}
+.currency:hover {
+    background-color: #777777;
 }
 
 .main-content {
@@ -128,7 +134,7 @@ body {
 
 .main-small-info {
     display: inline-block;
-    background-color: #D3320F;
+    background-color: #d3320f;
     padding: 12px 16px;
     color: white;
     border-radius: 100px;
@@ -136,7 +142,7 @@ body {
 }
 
 .main-title {
-    font-family: "Merriweather", sans-serif;
+    font-family: 'Merriweather', sans-serif;
     font-weight: 900;
     font-size: 120px;
     line-height: 130%;
@@ -158,12 +164,11 @@ body {
 }
 
 .why {
-    background-image: url("../images/whybg.png");
+    background-image: url('../images/whybg.png');
     background-position: top center;
     background-size: initial;
     padding-bottom: 180px;
 }
-
 
 .why-items {
     margin-top: 60px;
@@ -189,7 +194,7 @@ body {
 }
 
 .products {
-    background-image: url("../images/burgers_bg.png");
+    background-image: url('../images/burgers_bg.png');
     background-position: top center;
     background-size: 1400px;
     padding-bottom: 180px;
@@ -204,7 +209,7 @@ body {
 
 .products-item {
     padding: 30px;
-    background: #211A16;
+    background: #211a16;
     border: 1px solid #353535;
     border-radius: 16px;
 }
@@ -259,7 +264,7 @@ body {
 }
 
 .order {
-    background-image: url("../images/order_bg.png");
+    background-image: url('../images/order_bg.png');
     background-position: top center;
     background-repeat: no-repeat;
     padding-bottom: 180px;
@@ -282,7 +287,7 @@ body {
     max-width: 426px;
     margin-top: 60px;
     margin-left: 674px;
-    background-color: #211A16;
+    background-color: #211a16;
     border: 1px solid #353535;
     border-radius: 16px;
     padding: 60px 40px;
@@ -301,7 +306,7 @@ body {
 }
 
 .order-form-input {
-    background: linear-gradient(95.61deg, #DA8023 0%, #E2B438 100%);
+    background: linear-gradient(95.61deg, #da8023 0%, #e2b438 100%);
     width: 344px;
     height: 62px;
     border-radius: 8px;
@@ -313,7 +318,7 @@ body {
 .order-form-input input {
     box-sizing: border-box;
     padding: 20px 10px;
-    background: #211A16;
+    background: #211a16;
     width: 342px;
     height: 60px;
     border-radius: 8px;
